@@ -1,0 +1,74 @@
+[
+    {
+        "response_type": "greeting",
+        "user_input": ["hello", "hi", "hey"],
+        "bot_response": "Hey there!",
+        "required_words": []
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["see you", "goodbye", "bye"],
+        "bot_response": "See you later!",
+        "required_words": []
+    },
+    {
+        "response_type": "greeting",
+        "user_input": ["nice", "to", "meet", "you"],
+        "bot_response": "The pleasure is all mine!",
+        "required_words": ["nice", "meet", "you"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+        "bot_response": "Start by typing: 'How to learn coding' on Google.",
+        "required_words": ["learn", "code"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["refund", "how", "can", "I", "get"],
+        "bot_response": "We don't offer refunds for free education.",
+        "required_words": ["refund", "i"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["how", "are", "you"],
+        "bot_response": "I'm great! Thanks for asking.",
+        "required_words": ["how", "are", "you"]
+    },
+    {
+        "response_type": "medical",
+        "user_input": ["common", "cold", "symptoms"],
+        "bot_response": "Common cold symptoms may include a runny or stuffy nose, sore throat, cough, congestion, slight body aches, sneezing, low-grade fever, and generally feeling unwell (malaise).",
+        "required_words": ["common", "cold", "symptoms"]
+    },
+    {
+        "response_type": "medical",
+        "user_input": ["fever", "symptoms"],
+        "bot_response": "Fever symptoms can include sweating, chills and shivering, headache, muscle aches, loss of appetite, irritability, dehydration, and general weakness.",
+        "required_words": ["fever", "symptoms"]
+    },
+    {
+        "response_type": "medical",
+        "user_input": ["diabetes", "symptoms"],
+        "bot_response": "Diabetes symptoms often involve increased hunger, increased thirst, weight loss, frequent urination, blurry vision, and extreme fatigue.",
+        "required_words": ["diabetes", "symptoms"]
+    },
+    {
+        "response_type": "medical",
+        "user_input": ["headache", "causes"],
+        "bot_response": "Headaches can be caused by various factors, including stress, tension, dehydration, sinus issues, and even certain medical conditions.",
+        "required_words": ["headache", "causes"]
+    },
+    {
+        "response_type": "medical",
+        "user_input": ["allergy", "symptoms"],
+        "bot_response": "Allergy symptoms often include sneezing, runny or stuffy nose, itchy or watery eyes, and sometimes skin rashes or hives.",
+        "required_words": ["allergy", "symptoms"]
+    },
+    {
+        "response_type": "medical",
+        "user_input": ["influenza", "prevention"],
+        "bot_response": "Influenza (flu) prevention involves getting a flu vaccine, practicing good hand hygiene, and avoiding close contact with sick individuals.",
+        "required_words": ["influenza", "prevention"]
+    }
+]
