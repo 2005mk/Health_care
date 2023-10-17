@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take care</title>
+
+</head>
+<body>
+
+    <div class="home">
+        <img src="" alt="">
+    </div>
+    <div class="main">
+        Take Care!:
+        <div class="search">
+            <input type="searchbar" placeholder="Search" id="search">
+        </div>
+    </div>
+    
+    <div class="img">
+    
+        <img src="https://wallpaperaccess.com/full/4433940.jpg" alt="" id="i">
+    </div>
+    <div class="contain">
+    </div>
+    
+
+    
+    <div class="sub">
+           <button id="c1" onclick="hide()">Ask your Doubts!</button>
+            <button id="c2">your health!</button> 
+            <button id="c3">Work Out plans!</button>
+    </div>
+    <style>
+        #c1,#c2,#c3 {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            background-color: #45A29E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-size: 40px;
+            margin-right: 100px;
+            animation: roll 5s;
+            box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+        }
+        #c1:hover, #c2:hover,#c3:hover {
+            transform-origin: left;
+            transform: perspective(1000px) rotateY(40deg);
+        }
+.main
+{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color:white;
+    font-size:60px;
+}
+#hide1
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2568FB;
+    display:flex;
+    width: 600px;
+    height:600px;
+    color:white;
+    border-radius: 10px;
+    overflow: auto;
+    font-size: 40px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+#search
+{
+    width:400px;
+    height:70px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-size: 40px;
+}
+.contain{
+    padding-top:100px;
+    padding-left: 1200px;
+}
+body{
+    background-color: #1F2833;
+}
+.button{
+    padding-left:1500px;
+    margin-right: 40px;
+    float:right;
+}
+#bu,#bu1{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    cursor: pointer;
+    width:80%;
+    font-size: 20px;
+    height:60%;
+    background-color:#45A29E;
+    backdrop-filter:blur(2px);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    color:white;
+    border:none;
+    gap:10px;
+    font-size: 30px;
+    border-radius:10px;
+    padding-right: 50px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+#i
+{
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 500px;
+}
+ul{
+    font-size: 30px;
+    color:white;
+}
+    .sub {
+            justify-content: center;
+            display: flex;
+            padding-top: 200px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .Footer{
+            background-color: #0B0C10;
+            margin-left: 100px;
+            margin-right:120px;
+        }
+        h3{
+            color:white;
+            font-size: 40px;
+        }
+
+        @keyframes roll {
+            from {
+                transform: translateX(500px) rotateX(180deg);
+            }
+        }
+    </style>
+    <script>
+        var div=document.getElementById("hide1");
+        var display=0;
+         function hide()
+         {
+            if(display==1)
+            {
+                div.style.display='block';
+                display=0;
+            }
+            else{
+                div.style.display='none';
+                display=1;
+            }
+         }
+
+    </script>
+    <footer class="Footer">
+       <h3>Info:</h3>
+       <ul>
+        <li>This is a health care website</li>
+
+        <li>By choosing the above given option you will be redirected to that particular site</li>
+
+        <li>For any problems contect Phno:000000000000</li>
+       </ul>
+    </footer>
+</body>
+</html>
